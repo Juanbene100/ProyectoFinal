@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+input, button {
+    margin: 5px 0;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.task-section {
+    margin-top: 20px;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#taskList li {
+    background-color: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#taskList li span {
+    flex-grow: 1;
+}
+
+#taskList li small {
+    color: #666;
+    font-size: 0.8em;
+    margin: 0 10px;
+}
+
+#taskList li div button {
+    margin-left: 5px;
+}
+
+#taskList li div button:first-child {
+    background-color: #2196F3;
+}
+
+#taskList li div button:last-child {
+    background-color: #f44336;
+}
+
+#taskList li input[type="text"] {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+/* Estilos específicos para el modo edición */
+#taskList li.editing {
+    display: flex; /* Cambia a bloque para mejor distribución */
+    padding: 10px;
+}
+
+#taskList li.editing .edit-controls {
+    display: flex;
+    gap: 5px;
+    margin-top: 8px;
+   
+}
+
+#taskList li.editing input[type="text"] {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+#taskList li:not(.editing) .task-text {
+    cursor: pointer;
+    flex-grow: 1;
+}
