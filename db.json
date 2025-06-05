@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "username": "andres04",
+      "password": "2004andres"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1749159941297,
+      "text": "Ir al medico",
+      "datetime": "2025-07-10T08:45",
+      "user": "andres04",
+      "completed": false,
+      "createdAt": "2025-06-05T21:45:41.297Z",
+      "updatedAt": "2025-06-05T22:02:43.158Z"
+    },
+    {
+      "id": 1749160988470,
+      "text": "Ir de compras",
+      "datetime": "2025-06-10T13:00",
+      "user": "andres04",
+      "completed": false,
+      "createdAt": "2025-06-05T22:03:08.470Z",
+      "updatedAt": "2025-06-05T22:03:19.996Z"
+    },
+    {
+      "id": 1749161083300,
+      "text": "Ir al super",
+      "datetime": null,
+      "user": "andres04",
+      "completed": false,
+      "createdAt": "2025-06-05T22:04:43.300Z"
+    }
+  ]
+}
